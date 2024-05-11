@@ -21,12 +21,12 @@
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
 
-<!--
+
         <dependency>
-            <groupId>cn.iocoder.cloud</groupId>
-            <artifactId>yudao-spring-boot-starter-env</artifactId>
+            <groupId>com.wang</groupId>
+            <artifactId>miaowu-spring-boot-env</artifactId>
         </dependency>
--->
+
 
         <!-- 依赖服务 -->
         <dependency>
@@ -34,25 +34,25 @@
             <artifactId>miaowu-system-api</artifactId>
             <version>${revision}</version>
         </dependency>
-       <!-- <dependency>
-            <groupId>cn.iocoder.cloud</groupId>
-            <artifactId>yudao-module-infra-api</artifactId>
-            <version>${revision}</version>
-        </dependency>-->
+<!--       <dependency>-->
+<!--            <groupId>com.wang</groupId>-->
+<!--            <artifactId>yudao-module-infra-api</artifactId>-->
+<!--            <version>${revision}</version>-->
+<!--        </dependency>-->
 
         <!-- 业务组件 -->
-       <!-- <dependency>
-            <groupId>cn.iocoder.cloud</groupId>
-            <artifactId>yudao-spring-boot-starter-biz-data-permission</artifactId>
+        <dependency>
+            <groupId>com.wang</groupId>
+            <artifactId>miaowu-spring-boot-data-permission</artifactId>
         </dependency>
         <dependency>
-            <groupId>cn.iocoder.cloud</groupId>
-            <artifactId>yudao-spring-boot-starter-biz-tenant</artifactId>
+            <groupId>com.wang</groupId>
+            <artifactId>miaowu-spring-boot-biz-tenant</artifactId>
         </dependency>
         <dependency>
-            <groupId>cn.iocoder.cloud</groupId>
-            <artifactId>yudao-spring-boot-starter-biz-ip</artifactId>
-        </dependency>-->
+            <groupId>com.wang</groupId>
+            <artifactId>miaowu-spring-boot-biz-ip</artifactId>
+        </dependency>
 
         <!-- Web 相关 -->
         <dependency>
@@ -61,21 +61,21 @@
         </dependency>
 
         <!-- DB 相关 -->
-       <!-- <dependency>
-            <groupId>cn.iocoder.cloud</groupId>
-            <artifactId>yudao-spring-boot-starter-mybatis</artifactId>
+        <dependency>
+            <groupId>com.wang</groupId>
+            <artifactId>miaowu-spring-boot-mybatis</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>cn.iocoder.cloud</groupId>
-            <artifactId>yudao-spring-boot-starter-redis</artifactId>
-        </dependency>-->
+            <groupId>com.wang</groupId>
+            <artifactId>miaowu-spring-boot-redis</artifactId>
+        </dependency>
 
         <!-- RPC 远程调用相关 -->
-       <!-- <dependency>
-            <groupId>cn.iocoder.cloud</groupId>
-            <artifactId>yudao-spring-boot-starter-rpc</artifactId>
-        </dependency>-->
+       <dependency>
+            <groupId>com.wang</groupId>
+            <artifactId>miaowu-spring-boot-rpc</artifactId>
+        </dependency>
 
         <!-- Registry 注册中心相关 -->
         <dependency>
@@ -90,40 +90,40 @@
         </dependency>
 
         <!-- Job 定时任务相关 -->
-       <!-- <dependency>
+       <dependency>
             <groupId>com.wang</groupId>
-            <artifactId>yudao-spring-boot-starter-job</artifactId>
-        </dependency>-->
+            <artifactId>miaowu-spring-boot-job</artifactId>
+        </dependency>
 
         <!-- 消息队列相关 -->
-        <!--<dependency>
+        <dependency>
             <groupId>com.wang</groupId>
-            <artifactId>yudao-spring-boot-starter-mq</artifactId>
-        </dependency>-->
+            <artifactId>miaowu-spring-boot-mq</artifactId>
+        </dependency>
 
         <!-- Test 测试相关 -->
         <!--<dependency>
             <groupId>com.wang</groupId>
-            <artifactId>yudao-spring-boot-starter-test</artifactId>
+            <artifactId>miaowu-spring-boot-test</artifactId>
             <scope>test</scope>
         </dependency>-->
 
         <!-- 工具类相关 -->
-       <!-- <dependency>
+       <dependency>
             <groupId>com.wang</groupId>
-            <artifactId>yudao-spring-boot-starter-excel</artifactId>
+            <artifactId>miaowu-spring-boot-excel</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-mail</artifactId>
-        </dependency>-->
+        </dependency>
 
         <!-- 监控相关 -->
-       <!-- <dependency>
+       <dependency>
             <groupId>com.wang</groupId>
-            <artifactId>yudao-spring-boot-starter-monitor</artifactId>
-        </dependency>-->
+            <artifactId>miaowu-spring-boot-monitor</artifactId>
+        </dependency>
 
         <!-- 三方云服务相关 -->
         <dependency>

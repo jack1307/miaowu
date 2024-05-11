@@ -54,7 +54,7 @@ public class OAuth2Utils {
         Map<String, Object> vars = new LinkedHashMap<String, Object>();
         Map<String, String> keys = new HashMap<String, String>();
         vars.put("access_token", accessToken);
-        vars.put("token_type", SecurityFrameworkUtils.AUTHORIZATION_BEARER.toLowerCase());
+//        vars.put("token_type", SecurityFrameworkUtils.AUTHORIZATION_BEARER.toLowerCase());
         if (state != null) {
             vars.put("state", state);
         }
