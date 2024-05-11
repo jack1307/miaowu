@@ -7,10 +7,8 @@
         <version>${revision}</version>
     </parent>
 
-    <artifactId>miaowu-system-busi</artifactId>
+    <name>${project.artifactId}</name>
     <packaging>jar</packaging>
-
-    <name>miaowu-system-busi</name>
     <description>
         system 模块下，我们放通用业务，支撑上层的核心业务。
         例如说：用户、部门、权限、数据字典等等
@@ -57,10 +55,10 @@
         </dependency>-->
 
         <!-- Web 相关 -->
-        <!--<dependency>
-            <groupId>cn.iocoder.cloud</groupId>
-            <artifactId>yudao-spring-boot-starter-security</artifactId>
-        </dependency>-->
+        <dependency>
+            <groupId>com.wang</groupId>
+            <artifactId>miaowu-spring-boot-security</artifactId>
+        </dependency>
 
         <!-- DB 相关 -->
        <!-- <dependency>

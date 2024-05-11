@@ -10,7 +10,7 @@
     <artifactId>miaowu-common</artifactId>
     <packaging>jar</packaging>
 
-    <name>miaowu-common</name>
+    <name>${project.artifactId}</name>
 
     <dependencies>
         <!-- Spring 核心 -->

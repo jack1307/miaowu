@@ -22,13 +22,21 @@
     </description>
     <modules>
         <module>miaowu-common</module>
+        <module>miaowu-spring-boot-security</module>
+        <module>miaowu-spring-boot-rpc</module>
+        <module>miaowu-spring-boot-web</module>
+        <module>miaowu-spring-boot-job</module>
+        <module>miaowu-spring-boot-mq</module>
+        <module>miaowu-spring-boot-websocket</module>
+        <module>miaowu-spring-boot-env</module>
+        <module>miaowu-spring-boot-excel</module>
+        <module>miaowu-spring-boot-biz-ip</module>
+        <module>miaowu-spring-boot-data-permission</module>
+        <module>miaowu-spring-boot-mybatis</module>
+        <module>miaowu-spring-boot-biz-tenant</module>
+        <module>miaowu-spring-boot-redis</module>
+        <module>miaowu-spring-boot-monitor</module>
     </modules>
 
-    <name>miaowu-framework</name>
-    <url>http://maven.apache.org</url>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
 
 </project>
