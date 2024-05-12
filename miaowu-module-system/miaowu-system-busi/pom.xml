@@ -6,7 +6,7 @@
         <artifactId>miaowu-module-system</artifactId>
         <version>${revision}</version>
     </parent>
-
+    <artifactId>miaowu-system-busi</artifactId>
     <name>${project.artifactId}</name>
     <packaging>jar</packaging>
     <description>
@@ -44,6 +44,7 @@
         <dependency>
             <groupId>com.wang</groupId>
             <artifactId>miaowu-spring-boot-data-permission</artifactId>
+            <version>${revision}</version>
         </dependency>
         <dependency>
             <groupId>com.wang</groupId>

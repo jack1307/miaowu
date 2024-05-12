@@ -18,12 +18,14 @@
         <dependency>
             <groupId>com.wang</groupId>
             <artifactId>miaowu-common</artifactId>
+            <version>${revision}</version>
         </dependency>
 
         <!-- Web 相关 -->
         <dependency>
             <groupId>com.wang</groupId>
             <artifactId>miaowu-spring-boot-web</artifactId>
+            <version>${revision}</version>
             <scope>provided</scope> <!-- 设置为 provided，只有 OncePerRequestFilter 使用到 -->
         </dependency>
 
