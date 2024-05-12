@@ -4,9 +4,35 @@
     <parent>
         <groupId>com.wang</groupId>
         <artifactId>miaowu-framework</artifactId>
-        <version>1.0.0</version>
+        <version>${revision}</version>
     </parent>
     <artifactId>miaowu-spring-boot-mq</artifactId>
-    <name>Archetype - miaowu-spring-boot-mq</name>
-    <url>http://maven.apache.org</url>
+    <name>${project.artifactId}</name>
+    <description>消息队列，支持 Redis、RocketMQ、RabbitMQ、Kafka 四种</description>
+    <url>https://github.com/YunaiV/ruoyi-vue-pro</url>
+
+    <dependencies>
+        <!-- DB 相关 -->
+        <dependency>
+            <groupId>com.wang</groupId>
+            <artifactId>miaowu-spring-boot-redis</artifactId>
+        </dependency>
+
+        <!-- 消息队列相关 -->
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-rabbit</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-spring-boot-starter</artifactId>
+            <optional>true</optional>
+        </dependency>
+    </dependencies>
 </project>
